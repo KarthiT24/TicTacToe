@@ -147,7 +147,7 @@ class StatusIndicator extends HBox {
                     game.winnerProperty().isEqualTo(Square.State.EMPTY)
                 )
                     .then("Draw")
-                    .otherwise("Winning Player: ")
+                    .otherwise("WINNER: ")
             )
     );
   }
@@ -398,7 +398,7 @@ class SquareSkin extends StackPane {
       "http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/128/green-cd-icon.png"
   );
   static final Image crossImage = new Image(
-      "http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/128/blue-cross-icon.png"
+      "https://icons.iconarchive.com/icons/amitjakhu/drip/128/cross-icon.png"
   );
 
   private final ImageView imageView = new ImageView();
