@@ -21,10 +21,7 @@ public class TicTacToe extends Application {
 
     Scene scene = gameManager.getGameScene();
     scene.getStylesheets().add(
-      getResource(
-        "application.css"
-      )
-    );
+      getResource("application.css"));
 
     stage.setTitle("Tic-Tac-Toe");
     stage.getIcons().add(SquareSkin.crossImage);
